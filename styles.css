@@ -35,7 +35,10 @@ body {
     margin-top: 20px;
 }
 .number input {
-    padding: 9px 10px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 10px;
+    padding-right: 90px;
     font-size: 1.9rem;
     border-radius: 8px;
     opacity: 0.8;
