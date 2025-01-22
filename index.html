@@ -7,18 +7,18 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="main">
+    <form class="main">
       <h1>Weight Converter</h1>
       <div class="number">
         <h3>Pounds:</h3>
-        <input type="number" placeholder="Enter number" step="0.1" />
+        <input type="number" placeholder="Enter number" step="0.1" min="0" />
       </div>
       <div class="weight">
         <p>Your weight in kg is:</p>
         <h3 type="number" step="0.01"></h3>
       </div>
-        <h3 class="error">Please enter a valid number!</h3>
-    </div>
+      <!-- <h3 class="error">Please enter a valid number!</h3> -->
+    </form>
     <script src="script.js"></script>
   </body>
 </html>
